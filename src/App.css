@@ -1,0 +1,28 @@
+/* autoprefixer grid: autoplace */
+.App {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 100px 200px 100px;
+  grid-template-areas: 'a a' 'b c' 'd d';
+}
+
+.a {
+  background-color: red;
+  grid-area: a;
+}
+
+.b {
+  background-color: orange;
+  grid-area: b;
+}
+
+.c {
+  background-color: green;
+  grid-area: c;
+}
+
+.d {
+  background-color: blue;
+  grid-area: d;
+}

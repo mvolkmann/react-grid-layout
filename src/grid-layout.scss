@@ -1,0 +1,16 @@
+/* autoprefixer grid: autoplace */
+.grid-layout {
+  display: grid;
+
+  & > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: dashed lightgray 1px;
+  }
+
+  @media (max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+  }
+}
